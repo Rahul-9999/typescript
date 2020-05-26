@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var BasicPhone_1 = require("./Basic/BasicPhone");
+var SmartPhone_1 = require("./Smart/SmartPhone");
+var basicPhone = new BasicPhone_1.BasicPhone('basic Keypad');
+basicPhone.sendSMS();
+basicPhone.makeCalls();
+var smartPhone = new SmartPhone_1.SmartPhone('touch keypad', 'fpSensor');
+smartPhone.sendSMS();
+smartPhone.sendEmail();

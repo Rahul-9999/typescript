@@ -1,0 +1,54 @@
+Type-script
+----------
+-> https://www.typescriptlang.org/index.html
+-> language given by Microsoft
+-> 2012
+-> Typed Super set of javascript -> 1995 -> 2020
+
+-> 1) datatypes
+  ---------------
+  let a:number = 10;
+  a = 'john';
+  a = {};
+  a = [];
+  a = function(){..}
+
+  2) function
+  ---------------
+  let greet = function(name,age) {...};
+  greet('john',40); // valid
+  greet('John'); // valid
+  greet(40); // valid
+  greet(40,'John'); // valid
+  greet(); // valid
+
+3) OOPS
+-------
+-> TS ->
+
+
+  Transpilation -> Tranform + compile -> .js
+
+   .ts -> compile -> .js
+
+   tsc app.ts => node app.js
+
+
+   javac nam.java => name.class  => java name
+
+   3.8.3
+   -----
+   -> npm install -g typescript
+   -> tsc app.ts
+   => node app.js
+
+   let name = 'John'
+   let name:string = 'John'
+
+
+
+  .ts
+
+
+
+
